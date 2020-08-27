@@ -3,11 +3,106 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
-		<sryle>
-			
-		</sryle>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/comm.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<style>
+			.footer{
+				background-color: #F3F3F3;
+				font-size: 14px;
+				color: #2b2727;
+				padding-top: 40px;
+				text-align: center;
+			}
+			.footer>ul{
+				padding-bottom: 30px;
+			}
+			.footer>ul>li{
+				width: 155px;
+				border-right: 1px solid #000000;
+			}
+			.footer>ul>li>a{
+				color: #2b2727;
+			}
+			/*固定侧边栏*/
+			dd {
+			    background: url(image/mycake/right_kf_bg.png) no-repeat;
+			    width: 153px;
+			    height: 60px;
+			    margin-bottom: 24px;
+			    padding-left: 30px;
+			}
+			dd>a{
+				  background: url(image/mycake/rt_kf_ico1.png) no-repeat center left;
+				  line-height: 20px;
+				  padding-top: 10px;
+				  height: 50px;
+			}
+			#r2>a{
+				background: url(image/mycake/rt_kf_ico1.png) no-repeat center left;
+			}
+			#r3>a{
+				background: url(image/mycake/rt_kf_ico1.png) no-repeat center left;
+			}
+		</style>
 	</head>
 	<body>
+		<div class="container">
+			<!--底部内容-->
+			<div class="footer">
+				<!--客服电话 P-->
+				<p class="pb-4 mb-0">
+					客服电话：400-765-9956
+				</p>
+				<!--服务内容 ul>li-->
+				<ul class="list-unstyled d-flex justify-content-center mb-0">
+					<li class="align-items-center">市区免费送货</li>
+					<li class="align-items-center">VIp客服服务</li>
+					<li class="align-items-center">售后保障</li>
+					<li class="">
+						<a href="">帮助中心</a>
+					</li>
+					<li class="border-right-0">
+						<a href="">关于我们</a>
+					</li>
+				</ul>
+				<!--版权信息 P-->
+				<p class="pb-4 mb-0">
+					版权所有：专注专业蛋糕销售平台，销量畅销品牌
+					<br>
+					© 版权所有:昆明磐仁健康信息咨询有限公司  
+				</p>
+			</div>
+			<!--侧边栏固定内容-->
+      <div class="right_service">
+       <dl>
+        <dd class="r1">
+					<!--电话客服-->
+					<a  href="" rel="nofollow"  title="电话客服">
+						电话客服
+						<span>400-765-9956</span>
+					</a>
+				</dd>
+				 <!--在线客服-->
+        <dd class="r2">
+					<a  href="" rel="nofollow"  title="在线客服">
+						在线客服
+					</a>
+				</dd>
+				 <!--返回顶部-->
+        <dd class="r3">
+					<a href="#" title="回到顶层" id="backto-top">
+					  返回顶部
+					</a>
+				</dd>
+    </div>
 		
+		image/mycake/rt_kf_ico2.png
+		</div><!--整体div-->
 	</body>
 </html>

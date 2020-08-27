@@ -12,7 +12,7 @@
 		<script src="js/bootstrap.min.js"></script>
 		<style>
 			body{
-				border-bottom: 1px solid #AAAAAA;
+				
 				background-color: #FFF;
 			}
 
@@ -24,59 +24,128 @@
         border-right: 1px solid #AAA;
 				padding: 0 33px;
 			}
+			.parentdw{
+				position: relative;
+			}
+			.redling {
+			    position: absolute;
+			    min-width: 13px;
+			    height: 13px;
+			    line-height: 13px;
+			    padding: 1px;
+			    border-radius: 50%;
+			    background: #FF678D;
+			    color: #fff;
+			    top: -8px;
+			    right: 25px;
+			    text-align: center;
+			    font-size: 12px;
+			}
+			hr{
+				width: 100%;
+				size: 1px;
+				color:#AAAAAA;
+			}
+			
 		</style>
 	</head>
 	<body>
 		<!--头部内容-->
 		<div class="container ">
+			<!--头排-->
 			<div class=" p-0 mx-0">
 				<ul class="list-unstyled d-flex justify-content-end top pt-3">
 					<li class="w-70">
 						<!--登录注册-->
-						<img src="ima/mycake/top_ico1.png" alt="">
+						<img src="image/mycake/top_ico1.png" alt="">
 						<a href="#">
 							<span class="top">登录/注册</span>
 						</a>
 					</li>
 					
-					<li class="w-70">
+					<li class="w-70 parentdw">
 						<!--购物车-->
-						<img src="ima/mycake/top_ico1.png" alt="">
+						<img src="image/mycake/top_ico2.png" alt="">
 						<a href="#">
 							<span class="top">购物车</span>
+							<span class="redling">0</span>
 						</a>
 					</li>
 					
 					<li class="w-70">
 						<!--在线客服-->
-						<img src="ima/mycake/top_ico1.png" alt="">
+						<img src="image/mycake/top_ico3.png" alt="">
 						<a href="#">
 							<span class="top">在线客服</span>
 					</li>
 					
 					<li class="w-70">
 						<!--电话-->
-						<img src="ima/mycake/top_ico1.png" alt="">
+						<img src="image/mycake/top_ico4.png" alt="">
 						<a href="#">
 							<span class="top">400-765-9956</span>
 					</li>
 					
 					<li class="w-70">
 						<!--订单查询-->
-						<img src="ima/mycake/top_ico1.png" alt="">
+						<img src="image/mycake/top_ico5.png" alt="">
 						<a href="#">
 							<span class="top">订单查询</span>
 					</li>
 					
 					<li class="w-70 border-right-0">
 					<!--我的足迹-->
-					<img src="ima/mycake/top_ico1.png" alt="">
+					<img src="image/mycake/top_ico6.png" alt="">
 					<a href="#">
 						<span class="top ">我的足迹</span>
 					</li>
 				</ul>
 			</div>
-			
+			<hr>
+			<!--第二排-->
+			<div class="d-flex">
+				<!--logo-->
+				<div class="">
+					<a href="">
+						<img src="image/mycake/mycake_logo.png" alt="">
+					</a>
+				</div>
+				<!--搜索框-->
+				<div >
+					<input type="text" autocomplete="off" name="keywords" id="keyword" value="" placeholder="请输入搜索关键字" >
+					
+					<button class="btn" type="button" ></button>
+				</div>
+				<!--导航-->
+				<div>
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="" class="mav-link active">首页</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="mav-link">全部蛋糕</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="mav-link">儿童蛋糕</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="mav-link">祝寿蛋糕</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="mav-link">情人蛋糕</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="mav-link">水果蛋糕</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="mav-link">奶油蛋糕</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="mav-link">鲜花&蛋糕组合</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 			
 		</div>
 	</body>
